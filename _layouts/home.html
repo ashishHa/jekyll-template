@@ -7,13 +7,9 @@
 {% include head.html title=page.title %}
 
 <body>
-  {% include header.html %}
   <div class="container">
-    <section class="middle">
-      <h1 class="display-4">{{ page.headline }}</h1>
-      <h2 class="display-8">{{ page.second-headline }}</h2>
-    </section>
+    {% include section1.html headline=page.headline second-headline=page.second-headline %}
+    {% include footer.html %}
   </div>
-  {% include footer.html %}
 </body>
 </html>
