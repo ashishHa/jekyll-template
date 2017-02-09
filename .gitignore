@@ -5,5 +5,4 @@ _site
 .asset-cache
 node_modules
 .env
-s3_website.yml
 Gemfile.lock
