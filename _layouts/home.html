@@ -7,9 +7,16 @@
 {% include head.html title=page.title %}
 
 <body>
-  <div class="container">
-    {% include section1.html headline=page.headline second-headline=page.second-headline %}
-    {% include footer.html %}
+  <div class="section1-container">
+    {% include section1.html 
+        headline=page.headline 
+        second-headline=page.second-headline 
+        trial-offer=page.trial-offer 
+        offer-message=page.offer-message %}
   </div>
+  <div class="section2-container">
+    {% include section2.html %}
+  </div>
+    {% include footer.html %}
 </body>
 </html>
