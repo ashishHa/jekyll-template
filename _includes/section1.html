@@ -1,16 +1,5 @@
 <div class="mom-container">
-    <nav class="flex-nav-bar">
-      <ul>
-        <li class="logo-img"><img src="/img/logo_02.png"></li>
-        <li class="logo-text">MoM</li>
-      </ul>
-      <ul>
-        <li>Pricing</li>
-        <li>Blog</li>
-        <li>Login</li>
-        <li class="sign-up-button">Sign Up Free</li>
-      </ul>
-    </nav>
+    {% include header.html %}
     <h1 class="mom-header"> {{ include.headline }} </h1>
     <p class="sub-header"> {{ include.second-headline }} </p>
     {% include offer-button.html text=include.trial-offer %}

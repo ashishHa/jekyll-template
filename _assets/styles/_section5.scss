@@ -1,3 +1,35 @@
 .section5-container {
   padding-bottom: 62px;
 }
+
+.product-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 205px;
+  
+  div {
+    margin-right : 50px;
+  }
+
+  .product-feature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+      height: 42px;
+      margin-right: 11px;
+    }
+
+    h4 {
+      font-weight: 300;
+    }
+  }
+
+  .feature-desc {
+    margin-top: 17px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}

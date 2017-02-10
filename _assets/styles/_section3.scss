@@ -1,0 +1,26 @@
+.sec-feature {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 124px; 
+
+  h2 {
+    font-weight: 300;
+  }
+  
+  p {
+    margin-top: 24px;
+    font-size: 12px;
+    font-weight: 300;
+    width: 270px;
+  }
+
+  .trial-offer-button {
+    justify-content: flex-start;
+    margin-top: 29px;
+  }
+
+  img {
+    height: 360px;
+  }
+}
