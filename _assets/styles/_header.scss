@@ -1,0 +1,35 @@
+.logo-img > img {
+  height: 40px;
+}
+
+.sign-up-button {
+  border: 1px solid $white-color;
+  border-radius: 19px;
+  padding: 3px 15px;
+}
+
+.flex-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  ul {
+    list-style: none;
+
+    li {
+      font-size: 14px;
+      display: inline;
+      color: $white-color;
+      margin-right: 20px;
+      a {
+        text-decoration: none;
+        color: $white-color;
+      }
+    }
+    
+    .logo-text {
+      font-size: 20px;
+    }
+  }
+}
