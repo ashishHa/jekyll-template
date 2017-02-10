@@ -13,9 +13,7 @@
     </nav>
     <h1 class="mom-header"> {{ include.headline }} </h1>
     <p class="sub-header"> {{ include.second-headline }} </p>
-    <div class="trial-offer-button">
-      <span> {{ include.trial-offer }} </span>
-    </div>
+    {% include offer-button.html text=include.trial-offer %}
     <p class="offer-message"> {{ include.offer-message }} </p>
     <div class="mockup-01">
       <img src="/img/mock_01.png">

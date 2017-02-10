@@ -7,10 +7,6 @@
   height: 40px;
 }
 
-li > .logo-text {
-  font-size: 20px;
-}
-
 .sign-up-button {
   border: 1px solid $white-color;
   border-radius: 19px;
@@ -31,6 +27,10 @@ li > .logo-text {
       color: $white-color;
       display: inline;
       margin-right: 20px;
+    }
+    
+    .logo-text {
+      font-size: 20px;
     }
   }
 }

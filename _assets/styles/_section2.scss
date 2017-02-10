@@ -30,7 +30,7 @@
 
 .sec2-feature {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-top: 124px; 
 
@@ -42,7 +42,7 @@
     margin-top: 24px;
     font-size: 12px;
     font-weight: 300;
-    widows: 270px;
+    width: 270px;
   }
 
   .trial-offer-button {
