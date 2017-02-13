@@ -1,5 +1,22 @@
 .section6-container {
-  width: 100%;
-  height: 183px;
-  border: 2px black solid;
+  background-image: url('/img/insights_bg.jpg');
+  .product-use {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 70px;
+
+    div {
+      color: $white-color;
+      width: 100px;
+      
+      .use-head {
+        font-size: 30px;
+        font-weight: 300;
+      }
+      .use-desc {
+        font-weight: 300;
+      }
+    }
+  }
 }

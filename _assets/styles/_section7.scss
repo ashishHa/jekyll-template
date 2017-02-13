@@ -1,5 +1,68 @@
 .section7-container {
-  width: 100%;
-  height: 400px;
-  border: 2px black solid;
+  background-color: $user-review-price-back-color;
+  padding-top: 50px;
+
+  h2 {
+    text-align: center;
+    color: $white-color;
+    font-weight: 300;
+  }
+
+  .user-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .user-dp {
+      margin-top: 20px;
+      width: 60px;
+    }
+    .user-namean {
+      font-weight: 300;
+      text-align: center;
+      color: $white-color;
+      margin-top: 10px;
+      font-size: 20px;
+    }
+
+    .user-desg {
+      width: 90px;
+      margin-top: 5px;
+    }
+
+    .user-msg {
+      width: 60%;
+      margin-top: 25px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid $white-color;
+       p{
+         font-size: 13px;
+         font-weight: 300;
+         color: $white-color;
+         text-align: center;
+         font-style: italic;
+       }
+    }
+
+    .promotion-text {
+      font-size: 14px;
+      margin-top: 30px;
+      color: $white-color;
+      font-weight: 300;
+
+    }
+
+    .trial-offer-button {
+      margin-top: 35px;
+    }
+  }
+
+  .color-line{
+    margin-top: 27px;
+    height: 3px;
+    width: 100%;
+    background-image: -webkit-linear-gradient(left, #11db4f, #7234ff), -webkit-linear-gradient(#273140, #273140);
+    background-image: -o-linear-gradient(left, #11db4f, #7234ff), -o-linear-gradient(#273140, #273140);
+    background-image: linear-gradient(to right, #11db4f, #7234ff), linear-gradient(#273140, #273140);
+  }
 }
