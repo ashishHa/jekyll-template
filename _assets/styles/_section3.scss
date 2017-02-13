@@ -59,8 +59,7 @@
   }
   @media screen 
   and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (max-device-width: 1600px) {
     flex-direction: row;
     justify-content: space-around;
     .feature-text {
