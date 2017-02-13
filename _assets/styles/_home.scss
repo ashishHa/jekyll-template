@@ -22,27 +22,6 @@ h1 {
   padding-left: 15px;
 }
 
-@media (min-width: 576px){
-  .mom-container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-}
-
-@media (min-width: 992px){
-  .mom-container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-}
-
-@media (min-width: 1200px){
-  .mom-container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-}
-
 @media (min-width: 576px) {
   .mom-container {
     width: 540px;
@@ -54,13 +33,6 @@ h1 {
   .mom-container {
     width: 720px;
     max-width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  .mom-container {
-    padding-right: 15px;
-    padding-left: 15px;
   }
 }
 

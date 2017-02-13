@@ -40,8 +40,11 @@
   display: flex;
   justify-content: center;
   margin-top: 84px;
-  
-  img {
-    height: 345px;
+  div {
+    max-width: 100%;
+    
+    img {
+      max-width: 100%;
+    }
   }
 }
